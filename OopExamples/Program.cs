@@ -6,7 +6,9 @@ namespace OopExamples
     {
         static void Main(string[] args)
         {
-            Encapsulation.PersonProblemExample.Run();
+            //Encapsulation.PersonProblemExample.Run();
+            Encapsulation.PersonSolutionExampl.Run();
+
         }
     }
 }
