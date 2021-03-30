@@ -11,7 +11,8 @@ namespace OopExamples
             //Encapsulation.PersonSolutionExampl.Run();
 
             //Console.WriteLine(StringUtils.FirstLetterToUpper("привет"));
-
+            //ShapeClass.TestShapeExample.Area();
+            ShapeClass.TestShapeExample.Draw();
 
         }
     }
