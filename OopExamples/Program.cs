@@ -1,4 +1,5 @@
 ﻿using System;
+using OopExamples.ObjectExamples;
 
 namespace OopExamples
 {
@@ -7,7 +8,10 @@ namespace OopExamples
         static void Main(string[] args)
         {
             //Encapsulation.PersonProblemExample.Run();
-            Encapsulation.PersonSolutionExampl.Run();
+            //Encapsulation.PersonSolutionExampl.Run();
+
+            //Console.WriteLine(StringUtils.FirstLetterToUpper("привет"));
+
 
         }
     }
