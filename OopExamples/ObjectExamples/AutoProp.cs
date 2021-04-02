@@ -13,7 +13,7 @@ namespace OopExamples.ObjectExamples
             {
                 if (x < 1)
                 { 
-                  this.x = x;
+                  this.x = 1;
                   return;
                 }
                 if (x > 5)
@@ -25,6 +25,28 @@ namespace OopExamples.ObjectExamples
             }
             public  int GetX()
             { return x;  }
+
+            
+            private int y;
+
+            public int Y
+            {
+                get { return y; }
+                set {
+                    if (value < 1)
+                    {
+                        y = 1;
+                        return;
+                    }
+                    if (value > 5)
+                    {
+                        y = 5;
+                        return;
+                    }
+                    y = value; 
+                }
+            }
+
         }
     }
 }

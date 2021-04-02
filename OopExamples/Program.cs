@@ -15,8 +15,9 @@ namespace OopExamples
             //ShapeClass.TestShapeExample.Draw();
 
             ObjectExamples.AutoProp.Point point = new AutoProp.Point();
-            point.SetX(5);
-            int x = point.GetX();
+            point.Y = 11;
+            int y = point.Y;
+            Console.WriteLine(y);
 
         }
     }
