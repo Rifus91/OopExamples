@@ -12,7 +12,11 @@ namespace OopExamples
 
             //Console.WriteLine(StringUtils.FirstLetterToUpper("привет"));
             //ShapeClass.TestShapeExample.Area();
-            ShapeClass.TestShapeExample.Draw();
+            //ShapeClass.TestShapeExample.Draw();
+
+            ObjectExamples.AutoProp.Point point = new AutoProp.Point();
+            point.SetX(5);
+            int x = point.GetX();
 
         }
     }
