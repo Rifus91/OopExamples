@@ -10,7 +10,19 @@ namespace OopExamples.ObjectExamples
         { //классический Get Set
             private int x;
             public  void SetX(int x)
-            {this.x = x; }
+            {
+                if (x < 1)
+                { 
+                  this.x = x;
+                  return;
+                }
+                if (x > 5)
+                {
+                    this.x = 5;
+                    return;
+                }
+                this.x = x; 
+            }
             public  int GetX()
             { return x;  }
         }
