@@ -47,6 +47,8 @@ namespace OopExamples.ObjectExamples
                 }
             }
 
+            public int Z { get; set; }
+
         }
     }
 }
